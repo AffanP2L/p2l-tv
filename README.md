@@ -1,5 +1,17 @@
 # P2L TV - AI Live Audio Chat
 
+> 🚀 **READY FOR GITHUB PAGES DEPLOYMENT** - All files configured and tested!
+
+## 📋 Quick Deploy (3 Steps)
+
+1. **Edit `vite.config.ts`** - Change repository name on line 8
+2. **Upload to GitHub** - Create repo and upload all files  
+3. **Configure GitHub** - Add API key secret, enable Pages
+
+**📖 See `FINAL_CHECKLIST.md` for detailed step-by-step instructions**
+
+---
+
 A real-time AI audio chat application with 3D visualizations using Google's Gemini AI with live audio dialog capabilities.
 
 ## Features

@@ -4,8 +4,13 @@ export default defineConfig(({ mode }: { mode: string }) => {
     const env = loadEnv(mode, '.', '');
     const isProd = mode === 'production';
     
+    // 🔧 CHANGE THIS to your GitHub repository name
+    // Example: if your repo is https://github.com/johndoe/my-ai-chat
+    // then change 'your-repo-name' to 'my-ai-chat'
+    const repoName = 'your-repo-name';
+    
     return {
-      base: isProd ? '/p2l-tv/' : '/',
+      base: isProd ? `/${repoName}/` : '/',
       define: {
         'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
         'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY)
