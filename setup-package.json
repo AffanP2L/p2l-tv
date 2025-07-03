@@ -1,0 +1,9 @@
+{
+  "name": "setup-deployment",
+  "description": "Setup script for GitHub Pages deployment",
+  "version": "1.0.0",
+  "main": "setup.js",
+  "scripts": {
+    "setup": "node setup.js"
+  }
+}

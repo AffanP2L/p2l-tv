@@ -1,0 +1,8 @@
+{
+  "name": "P2L TV",
+  "description": "AI interaction to life.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "prompt": ""
+}
